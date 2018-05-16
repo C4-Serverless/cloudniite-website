@@ -6,7 +6,9 @@ import {
   Link
 } from 'react-router-dom'
 
-import GetStarted from './GetStarted/GetStarted';
+import QuickStart from './QuickStart/QuickStart';
+import Tutorial from './Tutorial/Tutorial';
+
 import './Index.css';
 
 
@@ -15,15 +17,14 @@ class DocIndex extends Component {
     return (
       <div className="">
         <header className="">
-          <h1 className="">Documentation</h1>
-          <li><Link to="/documentation/get-started">Quick Start</Link></li>
+          <h1 className="">Docs</h1>
+          <li><Link to="/documentation/quick-start">Quick Start</Link></li>
           <li><Link to="/documentation/tutorial">Tutorial</Link></li>
         </header>
-        <p className="">
-          Documentation Components will go here
-        </p>
 
-        <Route path="/documentation/get-started" component={GetStarted} />
+        <Route path="/documentation/quick-start" component={QuickStart} />
+        <Route path="/documentation/tutorial" component={Tutorial} />
+
       </div>
     );
   }

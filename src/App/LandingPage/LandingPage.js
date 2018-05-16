@@ -6,7 +6,7 @@ class LandingPage extends Component {
     return (
       <div className="">
         <header className="">
-          <h1 className="">Documentation</h1>
+          <h1 className="">Landing Page fancy design here</h1>
         </header>
         <p className="">
              Landing page
