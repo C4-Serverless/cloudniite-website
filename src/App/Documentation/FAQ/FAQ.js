@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const QuickStart = () => {
+const FAQ = () => {
     return (
         <div>
-            <h1>Quick Start Page</h1>
+            <h1>FAQ Page</h1>
         </div>
     )
 }
 
-export default QuickStart;
+export default FAQ;
