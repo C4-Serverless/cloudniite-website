@@ -1,0 +1,28 @@
+#quick-start-outer code{
+    padding:8px;
+    background-color: #efefef;
+}
+
+#install-cloudniite-ol li{
+    width:250px;
+    margin:auto;
+    margin-bottom:12px;
+    text-align: left;
+}
+
+#install-cloudniite-ol code {
+    margin-left:-30px;
+}
+
+
+#install-aws-ol li{
+    width:250px;
+    margin:auto;
+    margin-bottom:12px;
+    text-align: left;
+}
+
+#install-aws-ol code {
+    margin-left:-30px;
+}
+

@@ -3,3 +3,8 @@
     width:90%;
     margin:auto;
 }
+
+#introduction code {
+    background-color: #efefef;
+    padding:8px;
+}
