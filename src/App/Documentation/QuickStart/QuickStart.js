@@ -8,20 +8,20 @@ const QuickStart = () => {
             <h1>Quick Start Page</h1>
 
             <h4>AWS Configuration</h4>
-            <ol id="install-aws-ol">
-                <li>
-                    Install our library with npm install  
-                </li>
+            <div id="install-aws-outer">
+                <div className="install-aws-text">
+                    1. Install our library with npm install  
+                </div>
                 <code>npm install --save cloudniite</code>  
-            </ol>
+            </div>
 
             <h4>Installation</h4>
-            <ol id="install-cloudniite-ol">
-                <li>
-                    Install our library with npm install  
-                </li>
+            <div id="install-cloudniite-outer">
+                <div className="install-cloudniite-text">
+                    1. Install our library with npm install  
+                </div>
                 <code>npm install --save cloudniite</code>  
-            </ol>
+            </div>
         </div>
     )
 }
