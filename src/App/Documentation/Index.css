@@ -1,0 +1,18 @@
+.doc-outer{
+    height:100vh;
+    width:100%;
+    background-color: orange;
+    display: inline-block;
+}
+
+.doc-nav-outer{
+    width:250px;
+    height:100%;
+    background-color: blue;
+    float:left;
+    clear: both;
+}
+
+.doc-sections{
+    display:inline;
+}

@@ -17,12 +17,14 @@ class App extends Component {
       <Router>
         <div className="App">
           <header className="App-header">
-            <h1 className="App-title">Cloudniite</h1>
+            <h1 className="App-title"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Cloudniite</Link></h1>
             <p className="App-intro">
               AWS Lambda Optimization and Monitoring Tool
             </p>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/documentation">Docs</Link></li>
+            <ul>
+              <li><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home</Link></li>
+              <li><Link to="/documentation" style={{ textDecoration: 'none', color: 'white' }}>Docs</Link></li>
+            </ul>
           </header>
 
           <Route exact path="/" component={LandingPage} />
