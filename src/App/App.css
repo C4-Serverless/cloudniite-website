@@ -22,11 +22,10 @@
 
 .App-header ul {
   float:right;
-  margin-top:-35px;
+  margin-top:-20px;
   margin-right:10px;
   clear: both;
   list-style: none;
-
 }
 
 .App-header li {
@@ -34,11 +33,25 @@
   margin-right:20px;
 }
 
+.App-header li a {
+  font-size: large; 
+}
+
 .App-title {
-  font-size: 1.5em;
   float:left;
+  width: 10%;
+  margin: 0;
+  padding: 0;
 }
 
 .App-intro {
   font-size: large;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+.cloudniiteLogoWhite {
+  padding: 0;
+  margin: 0;
+  width: 80%;
 }

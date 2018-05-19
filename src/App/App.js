@@ -9,6 +9,7 @@ import './App.css';
 
 import DocIndex from './Documentation/Index';
 import LandingPage from './LandingPage/LandingPage';
+import cloudniiteLogoWhite from './cloudniiteLogo(white).png';
 
 
 class App extends Component {
@@ -17,7 +18,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <header className="App-header">
-            <h1 className="App-title"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Cloudniite</Link></h1>
+            <div className="App-title"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}><img className = "cloudniiteLogoWhite" src = {cloudniiteLogoWhite}/></Link></div>
             <p className="App-intro">
               AWS Lambda Optimization and Monitoring Tool
             </p>

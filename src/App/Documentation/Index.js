@@ -10,7 +10,7 @@ import QuickStart from './QuickStart/QuickStart';
 import Tutorial from './Tutorial/Tutorial';
 import Introduction from './Introduction/Introduction';
 import FAQ from './FAQ/FAQ';
-import cloudniiteLogo from './cloudniiteLogo(black).png';
+import cloudniiteLogoBlack from './cloudniiteLogo(black).png';
 
 import './Index.css';
 
@@ -32,7 +32,7 @@ class DocIndex extends Component {
             <li className="doc-nav-inner-list"><Link to="/documentation/quick-start">Quick Start</Link></li>
             <li className="doc-nav-inner-list"><Link to="/documentation/tutorial">Tutorial</Link></li>
             <li className="doc-nav-inner-list"><Link to="/documentation/faq">FAQ</Link></li>
-            <img className = "cloudniiteLogo" src = {cloudniiteLogo}/>
+            <img className = "cloudniiteLogo" src = {cloudniiteLogoBlack}/>
           </div>
         </div>
 
