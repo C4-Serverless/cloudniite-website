@@ -23,7 +23,7 @@ class App extends Component {
             </p>
             <ul>
               <li><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home</Link></li>
-              <li><Link to="/documentation" style={{ textDecoration: 'none', color: 'white' }}>Docs</Link></li>
+              <li><Link to="/documentation/introduction" style={{ textDecoration: 'none', color: 'white' }}>Docs</Link></li>
             </ul>
           </header>
 

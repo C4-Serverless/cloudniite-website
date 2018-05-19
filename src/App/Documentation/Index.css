@@ -1,14 +1,14 @@
 .doc-outer{
     height:1300px;
     width:100%;
-    background-color: orange;
+    background:white;
     display: inline-block;
 }
 
 .doc-nav-outer{
     width:230px;
     height:100%;
-    background-color: blue;
+    background:#f7f7f7;
     margin-right:25px;
     float:left;
     clear: both;
@@ -17,6 +17,37 @@
 .doc-nav-inner{
     width:150px;
     margin:auto;
+    list-style: none;
+}
+
+.doc-nav-inner-list {
+    padding-bottom: 40px;
+}
+
+.doc-nav-inner-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.doc-nav-inner-list a:hover{
+    text-decoration: none;
+    color: green;
+    font-size: 22px;
+}
+
+.doc-nav-inner-list a:focus{
+    text-decoration: none;
+    color: green;
+    font-size: 22px;
+}
+
+.list1 {
+    padding-top: 50px;
+}
+
+.cloudniiteLogo {
+    width: 100%;
 }
 
 .doc-sections{

@@ -10,21 +10,29 @@ import QuickStart from './QuickStart/QuickStart';
 import Tutorial from './Tutorial/Tutorial';
 import Introduction from './Introduction/Introduction';
 import FAQ from './FAQ/FAQ';
+import cloudniiteLogo from './cloudniiteLogo(black).png';
 
 import './Index.css';
 
 
 class DocIndex extends Component {
+
+  componentDidUpdate() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
+      
       <div className="doc-outer">
         <div className="doc-nav-outer">
           <div className="doc-nav-inner">
             <h2 className="">Documentation</h2>
-            <li><Link to="/documentation/introduction">Introduction</Link></li>
-            <li><Link to="/documentation/quick-start">Quick Start</Link></li>
-            <li><Link to="/documentation/tutorial">Tutorial</Link></li>
-            <li><Link to="/documentation/faq">FAQ</Link></li>
+            <li className="doc-nav-inner-list list1"><Link to="/documentation/introduction">Introduction</Link></li>
+            <li className="doc-nav-inner-list"><Link to="/documentation/quick-start">Quick Start</Link></li>
+            <li className="doc-nav-inner-list"><Link to="/documentation/tutorial">Tutorial</Link></li>
+            <li className="doc-nav-inner-list"><Link to="/documentation/faq">FAQ</Link></li>
+            <img className = "cloudniiteLogo" src = {cloudniiteLogo}/>
           </div>
         </div>
 
