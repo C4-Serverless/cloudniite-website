@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const FAQ = () => {
     return (
         <div>
-            <h1>FAQ Page</h1>
+            <h2>FAQ Page</h2>
             <div id="install-aws-outer">
                 <div className="install-aws-text">
                     FeedBack:

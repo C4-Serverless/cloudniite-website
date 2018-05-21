@@ -5,7 +5,7 @@ import './QuickStart.css'
 const QuickStart = () => {
     return (
         <div id="quick-start-outer">
-            <h1>Quick Start Page</h1>
+            <h2>Quick Start Page</h2>
 
             <h4>AWS Configuration</h4>
             <div id="install-aws-outer">

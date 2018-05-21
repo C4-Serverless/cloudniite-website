@@ -5,7 +5,7 @@ import './Tutorial.css'
 const Tutorial = () => {
     return (
         <div id="tutorial-outer">
-            <h1>Tutorial Page</h1>
+            <h2>Tutorial Page</h2>
 
             <h3>Setting Up A New Project</h3>
             <div id="setup-aws-outer">
