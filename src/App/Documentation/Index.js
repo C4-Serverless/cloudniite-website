@@ -27,12 +27,12 @@ class DocIndex extends Component {
       <div className="doc-outer">
         <div className="doc-nav-outer">
           <div className="doc-nav-inner">
-            <h2 className="">Documentation</h2>
+            <h2 className="" style = {{fontSize :'22px'}}>Documentation</h2>
             <li className="doc-nav-inner-list list1"><Link to="/documentation/introduction">Introduction</Link></li>
             <li className="doc-nav-inner-list"><Link to="/documentation/quick-start">Quick Start</Link></li>
             <li className="doc-nav-inner-list"><Link to="/documentation/tutorial">Tutorial</Link></li>
             <li className="doc-nav-inner-list"><Link to="/documentation/faq">FAQ</Link></li>
-            <img className = "cloudniiteLogo" src = {cloudniiteLogoBlack}/>
+            <Link to="/"><img className = "cloudniiteLogo" src = {cloudniiteLogoBlack}/></Link>
           </div>
         </div>
 

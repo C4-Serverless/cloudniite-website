@@ -14,14 +14,6 @@ const QuickStart = () => {
                 </div>
                 <code>npm install --save cloudniite</code>  
             </div>
-
-            <h4>Installation</h4>
-            <div id="install-cloudniite-outer">
-                <div className="install-cloudniite-text">
-                    1. Install our library with npm install  
-                </div>
-                <code>npm install --save cloudniite</code>  
-            </div>
         </div>
     )
 }

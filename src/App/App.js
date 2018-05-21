@@ -19,12 +19,12 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <div className="App-title"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}><img className = "cloudniiteLogoWhite" src = {cloudniiteLogoWhite}/></Link></div>
-            <p className="App-intro">
+            <p className="App-intro" style={{fontFamily: '"Courier New", Courier, monospace'}}>
               AWS Lambda Optimization and Monitoring Tool
             </p>
             <ul>
-              <li><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home</Link></li>
-              <li><Link to="/documentation/introduction" style={{ textDecoration: 'none', color: 'white' }}>Docs</Link></li>
+              <li className = "links"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home</Link></li>
+              <li className = "links"><Link to="/documentation/introduction" style={{ textDecoration: 'none', color: 'white' }}>Docs</Link></li>
             </ul>
           </header>
 

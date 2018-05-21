@@ -20,6 +20,11 @@
   margin-top:15px;
 }
 
+.App-intro:Hover {
+  color:lightgreen;
+  cursor: default;
+}
+
 .App-header ul {
   float:right;
   margin-top:-20px;

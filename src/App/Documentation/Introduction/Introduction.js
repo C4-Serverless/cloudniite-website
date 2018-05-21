@@ -15,9 +15,6 @@ const Introduction = () => {
                 Wouldn't it be nice if you didn't have to think about servers?
                 What if your application could scale up and down with traffic 
                 automatically and you only pay for time being used. 
-            </p>
-
-            <p>
                 The future is here. The serverless revolution is enabling engineers 
                 and companies to extract their server problems out and away from their
                 projects and companies forever. 
