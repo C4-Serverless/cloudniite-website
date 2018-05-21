@@ -1,0 +1,50 @@
+.install-aws-text{
+    margin-bottom:20px;
+    font-size: 18px;
+}
+
+.install-cloudniite-text{
+    margin-bottom:20px;
+}
+
+.feedBackBox {
+    width: 300px;
+    height: auto;
+    padding: 0;
+    background: white;
+    border: 4px solid black;
+    margin-left: 250px;
+}
+.feedBackInput {
+    background: none;
+    border: white;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    width: 299px;
+}
+
+.feedBackInput.break {
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 80px;
+}
+
+.feedBackInput:focus {
+    outline: none !important;
+}
+
+.submitButton {
+    margin-top: 10px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submitButton:hover {
+    background-color: #efefef;
+    cursor: pointer;
+    font-size: 18px;
+}
+
