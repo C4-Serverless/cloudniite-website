@@ -22,7 +22,7 @@ const Tutorial = () => {
                 <div className="setup-aws-text">5. Create your yaml and lambda files(Our case test.yaml and lambda.js):</div>
                 <div>
                     <h4>test.yaml</h4>
-                    <div className="yaml-div">
+                    <div className= "files-div">
                         <pre>
                             {`AWSTemplateFormatVersion: '2010-09-09'
     Transform: AWS::Serverless-2016-10-31
@@ -40,7 +40,7 @@ const Tutorial = () => {
                 </div>
                 <div>
                     <h4>lambda.js</h4>
-                    <div className="lambda-div">
+                    <div className="files-div">
                         <pre>{`const aws = require('aws-sdk');
 
 exports.handler = function(event, context, callback) {
@@ -60,7 +60,7 @@ exports.handler = function(event, context, callback) {
             <div className="setup-aws-text">7. Setup your server:</div>
             <div>
                     <h4>lambda.js</h4>
-                    <div className="server-div">
+                    <div className="files-div">
                         <pre>{`const express = require('express');
 const cloudniite = require('cloudniite');
 const app = express();`}</pre>

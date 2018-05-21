@@ -22,28 +22,15 @@ body {
     font-size: 14px;
 }
 
-.yaml-div {
-    font-size: 100%;
-    background: #efefef;
-    width: 20%;
-    padding:0px;
-    margin-left: 250px;
+pre {
+    padding:10px;
 }
 
-.lambda-div {
+.files-div {
     font-size: 100%;
     background: #efefef;
-    width: 24%;
     padding:0px;
-    margin-left: 250px;
-}
-
-.server-div {
-    font-size: 100%;
-    background: #efefef;
-    width: 46%;
-    padding:0px;
-    margin-left: 250px;
+    display: inline-block;
 }
 
 .comments {
