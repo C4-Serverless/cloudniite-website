@@ -55,8 +55,8 @@ exports.handler = function(event, context, callback) {
                 <div className="setup-aws-list"><li>Make sure both the files are in the same folder</li></div>
             </div>
             <div className="setup-aws-text">6. Package and deploy your Lambda files to a stack:</div>
-            <div className="setup-aws-text"><li><code>aws cloudformation package --template-file fileName.yaml <br/> <br/> --output-template-file serverless-output.yaml --s3-bucket my-bucket</code></li></div>
-            <div className="setup-aws-text"><li><code>aws cloudformation deploy --template-file serverless-output.yaml <br/> <br/> --stack-name stackName --capabilities CAPABILITY_IAM</code></li></div>
+            <div className="setup-aws-text"><code>aws cloudformation package --template-file fileName.yaml <br/> <br/> --output-template-file serverless-output.yaml --s3-bucket my-bucket</code></div>
+            <div className="setup-aws-text"><br/><code>aws cloudformation deploy --template-file serverless-output.yaml <br/> <br/> --stack-name stackName --capabilities CAPABILITY_IAM</code></div>
             <div className="setup-aws-text">7. Setup your server:</div>
             <div>
                     <h4>lambda.js</h4>
