@@ -59,7 +59,7 @@ exports.handler = function(event, context, callback) {
             <div className="setup-aws-text"><br/><code>aws cloudformation deploy --template-file serverless-output.yaml <br/> <br/> --stack-name stackName --capabilities CAPABILITY_IAM</code></div>
             <div className="setup-aws-text">7. Setup your server:</div>
             <div>
-                    <h4>lambda.js</h4>
+                    <h4>server.js</h4>
                     <div className="files-div">
                         <pre>{`const express = require('express');
 const cloudniite = require('cloudniite');

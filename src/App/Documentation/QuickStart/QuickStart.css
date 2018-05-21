@@ -15,7 +15,21 @@
     margin-bottom:20px
 }
 
+.files-div {
+    font-size: 100%;
+    background: #efefef;
+    padding:0px;
+    display: inline-block;
+    width: auto;
+}
 
+.comments {
+    color: green;
+}
+
+.commentsAll {
+    color: green;
+}
 
 
 
