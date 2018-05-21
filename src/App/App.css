@@ -15,14 +15,17 @@
   margin-top:10px;
 }
 
-.App-intro {
+.App-intro a{
   margin-right:15px;
   margin-top:15px;
+  color: white;
+  text-decoration: none;
 }
 
-.App-intro:Hover {
+.App-intro a:Hover {
   color:lightgreen;
-  cursor: default;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .App-header ul {
@@ -58,5 +61,5 @@
 .cloudniiteLogoWhite {
   padding: 0;
   margin: 0;
-  width: 80%;
+  width: 60%;
 }

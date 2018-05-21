@@ -20,7 +20,7 @@ class App extends Component {
           <header className="App-header">
             <div className="App-title"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}><img className = "cloudniiteLogoWhite" src = {cloudniiteLogoWhite}/></Link></div>
             <p className="App-intro" style={{fontFamily: '"Courier New", Courier, monospace'}}>
-              AWS Lambda Optimization and Monitoring Tool
+              <a href = "https://github.com/C4-Serverless/cloudniite">AWS Lambda Optimization and Monitoring Tool</a>
             </p>
             <ul>
               <li className = "links"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home</Link></li>

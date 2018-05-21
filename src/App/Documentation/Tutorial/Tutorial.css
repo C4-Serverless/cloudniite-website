@@ -53,3 +53,7 @@ body {
 .commentsAll {
     color: green;
 }
+
+.ourMethods {
+    display: inline;
+}
