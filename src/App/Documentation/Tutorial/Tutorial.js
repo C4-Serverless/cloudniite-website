@@ -65,10 +65,11 @@ exports.handler = function(event, context, callback) {
 const cloudniite = require('cloudniite');
 const app = express();`}</pre>
 
-<pre className = "comments">{`//Pass in your region, and poolId
-//Configure returns a promise. If you wish to warm up on server start, use the .then method to invoke the other methods.`}</pre>
+<pre className = "comments">{`/* Pass in your region, and your poolId
+Configure returns a promise.
+If you wish to warm up on server start, use the .then method to invoke the other methods. */`}</pre>
 
-<pre>{`cloudniite.configure('us-east-1','us-east-1:77063b48-4177-4e13-a3d7-50657c0c503e').then(() => {`}</pre>
+<pre>{`cloudniite.configure('region','poolId').then(() => {`}</pre>
 <pre className = "commentsAll">{`    //Method for creating tag group/s`}</pre>    
 <pre>{`     cloudniite.createTagGroup("#HelloWorld", "TestFunction");`}</pre>
 <pre className = "commentsAll">{`    //Method for warming up tag group/s`}</pre>
