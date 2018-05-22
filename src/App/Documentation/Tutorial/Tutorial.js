@@ -34,7 +34,8 @@ const Tutorial = () => {
             Runtime: nodejs8.10
             Environment: 
                 Variables:
-                    S3_BUCKET: bucketName`}
+                    S3_BUCKET: bucketName
+            FunctionName: TestFunction`}
                         </pre>
                     </div>
                 </div>
