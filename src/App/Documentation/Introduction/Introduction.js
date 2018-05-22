@@ -104,7 +104,7 @@ const Introduction = () => {
                 passing in the tag group name.
             </p>
 
-            <code>lambdaController.warmupTagGroup(null, "#LandingPage");</code>
+            <code>cloudniite.warmupTagGroup(null, "#LandingPage");</code>
 
             <Link to="/documentation/quick-start"><h4>Get Started Installing and Using Cloudniite</h4></Link>
 
