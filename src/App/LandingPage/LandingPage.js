@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './LandingPage.css';
 import cloudniiteLogoBlack from './cloudniiteLogo(black).png';
-import example1 from './ezgif.com-video-to-gif.gif';
+import example1 from './demo.gif';
 
 class LandingPage extends Component {
   render() {
