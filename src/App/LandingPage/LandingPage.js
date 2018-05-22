@@ -13,7 +13,6 @@ class LandingPage extends Component {
         <div className="example1Div">
           <img className="example1" src={example1} />
         </div>
-
       </div>
     );
   }

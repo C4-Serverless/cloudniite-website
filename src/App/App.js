@@ -18,13 +18,13 @@ class App extends Component {
       <Router>
         <div className="App">
           <header className="App-header">
-            <div className="App-title"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}><img className = "cloudniiteLogoWhite" src = {cloudniiteLogoWhite}/></Link></div>
-            <p className="App-intro" style={{fontFamily: '"Courier New", Courier, monospace'}}>
-              <a href = "https://github.com/C4-Serverless/cloudniite">AWS Lambda Optimization and Monitoring Tool</a>
+            <div className="App-title"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}><img className="cloudniiteLogoWhite" src={cloudniiteLogoWhite} /></Link></div>
+            <p className="App-intro" style={{ fontFamily: '"Courier New", Courier, monospace' }}>
+              <a href="https://github.com/C4-Serverless/cloudniite">AWS Lambda Optimization and Monitoring Tool</a>
             </p>
             <ul>
-              <li className = "links"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home</Link></li>
-              <li className = "links"><Link to="/documentation/introduction" style={{ textDecoration: 'none', color: 'white' }}>Docs</Link></li>
+              <li className="links"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home</Link></li>
+              <li className="links"><Link to="/documentation/introduction" style={{ textDecoration: 'none', color: 'white' }}>Docs</Link></li>
             </ul>
           </header>
 
