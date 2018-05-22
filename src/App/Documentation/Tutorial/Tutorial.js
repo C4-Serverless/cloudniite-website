@@ -14,7 +14,7 @@ const Tutorial = () => {
                 <div className="setup-aws-text">2. Setup Node package modules:</div>
                 <div className="setup-aws-text"><code>npm init</code></div>
                 <div className="setup-aws-list"><li>For step by step instructions on setting up your Node package modules (<a href="https://www.sitepoint.com/beginners-guide-node-package-manager/">https://www.sitepoint.com/beginners-guide-node-package-manager)</a></li></div>
-                <div className="setup-aws-text">3. Install the following Node dependies:</div>
+                <div className="setup-aws-text">3. Install the following Node dependencies:</div>
                 <div className="setup-aws-text"><code>npm install --save aws-sdk cloudniite express</code></div>
                 <div className="setup-aws-text">4. Create an S3 bucket with the following cli command, which will create a 'my-bucket' named bucket in AWS S3:</div>
                 <code>aws s3api create-bucket --bucket my-bucket --region region</code>
