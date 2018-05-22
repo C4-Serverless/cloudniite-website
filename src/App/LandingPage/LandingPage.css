@@ -1,3 +1,20 @@
 body {
     padding: 10px;
 }
+
+.cloudniiteLogoDiv {
+    margin: 1% auto auto 32%;
+}
+
+.landingCloudniiteLogo {
+    width: 50%;
+}
+
+.example1Div {
+    margin: 2% auto auto 22%;
+}
+
+.example1 {
+    width: 70%;
+    border-radius: 8px;
+}

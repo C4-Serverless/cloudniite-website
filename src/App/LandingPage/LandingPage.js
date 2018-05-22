@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import './LandingPage.css';
+import cloudniiteLogoBlack from './cloudniiteLogo(black).png';
+import example1 from './ezgif.com-video-to-gif.gif';
 
 class LandingPage extends Component {
   render() {
     return (
-      <div className="">
-        <header className="">
-          <h1 className="">Landing Page fancy design here</h1>
-        </header>
-        <p className="">
-             Landing page
-        </p>
+      <div>
+        <div className="cloudniiteLogoDiv">
+          <img className="landingCloudniiteLogo" src={cloudniiteLogoBlack} />
+        </div>
+        <div className="example1Div">
+          <img className="example1" src={example1} />
+        </div>
+
       </div>
     );
   }
