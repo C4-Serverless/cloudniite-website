@@ -25,9 +25,10 @@ class App extends Component {
             <ul>
               <li className="links"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home</Link></li>
               <li className="links"><Link to="/documentation/introduction" style={{ textDecoration: 'none', color: 'white' }}>Docs</Link></li>
-            </ul>
+              <li className="links"><a href="https://twitter.com/cloudniite?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow</a></li>
+              <li className="links"> <a class="github-button" href="https://github.com/Cloudniite/cloudniite" aria-label="Follow">Follow</a></li>
+              </ul>
           </header>
-
           <Route exact path="/" component={LandingPage} />
           <Route path="/documentation" component={DocIndex} />
         </div>
